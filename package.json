@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "pnpm --filter @snow-leopard/app dev",
+    "dev": "cd apps/snow-leopard && next dev --turbo",
     "build": "pnpm --filter @snow-leopard/app build",
     "start": "pnpm --filter @snow-leopard/app start",
     "lint:app": "pnpm --filter @snow-leopard/app lint",
